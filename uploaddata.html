@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="uploaddata.css">
+</head>
+<body>
+    <h1>👤Upload Data</h1>
+    <div class="upload-box" id="dropArea">
+    <h2>📁 Upload your dataset</h2>
+    <p>Drag & drop CSV or Excel file here</p>
+    <p>or</p>
+
+    <input type="file" id="fileInput" accept=".csv,.xlsx,.xls,.jpg,.pdf">
+
+    <button onclick="document.getElementById('fileInput').click()">
+        Choose File
+    </button>
+    <button class="upload_btn"> Upload </button>
+    <script src="uploaddata.js"></script>
+</div>
+</body>
+</html>

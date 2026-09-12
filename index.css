@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #010817;
+    color: white;
+    font-family: Arial;
+}
+
+header{
+    position: fixed;
+    left: 47%;
+    top: 20px;
+}
+
+#login_btn{
+    background: #18396a;
+    border: solid 2px black;
+    position: fixed;
+    left: 90%;
+    top: 20px;
+    color: white;
+    border: none;
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#login_btn:hover{
+    transition: ease-in 100ms;
+    box-shadow: 8px 8px 2px black;
+    font-size: 16px;
+}
+.login-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+
+    background: #0d1b35;
+    padding: 30px;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+
+.login-box input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+
+#submitBtn{
+    background-color: #163b78;
+    border: solid 2px black;
+    color: white;
+    border: none;
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer; 
+}
+
+#error {
+    color: red;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #08172e;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.sidebar h2 {
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.sidebar button {
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 14px;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background: #163b78;
+     box-shadow: 8px 8px 2px black;
+}
+
+
+.card1{
+    opacity: 70%;
+    padding: 14px;
+    background-color: #0b164d;
+    height: 100px;
+    width: 280px;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#card1-img{
+    object-fit: contain;
+    height: 40px;
+    width: 40px;
+}
+#card1-teams{
+    margin-left: 50%;
+   position: relative;
+   bottom: 30px;
+}
+
+#card1-text{
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+
+.card2{
+     opacity: 70%;
+    padding: 14px;
+    background-color: #062d2d;
+    height: 100px;
+    width: 280px;
+    position: absolute;
+    left: 670px;
+    top: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#card2-img{
+    object-fit: contain;
+    height: 40px;
+    width: 40px;
+}
+#card2-teams{
+    margin-left: 50%;
+   position: relative;
+   bottom: 30px;
+}
+
+#card2-text{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.card3{
+     opacity: 70%;
+    padding: 14px;
+    background-color: #241d0f;
+    height: 100px;
+    width: 280px;
+    position: absolute;
+    left: 990px;
+    top: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#card3-img{
+    object-fit: contain;
+    height: 40px;
+    width: 40px;
+}
+#card3-teams{
+    margin-left: 50%;
+   position: relative;
+   bottom: 30px;
+}
+
+#card3-text{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.bottom {
+    margin-top: auto;
+}
