@@ -17,18 +17,41 @@ header{
 }
 
 #login_btn{
+    width: 70px;
     background: #18396a;
     border: solid 2px black;
     position: fixed;
-    left: 90%;
+    left: 89%;
     top: 20px;
     color: white;
     border: none;
     padding: 14px;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+#signup_btn{
+
+    background: #18396a;
+    border: solid 2px black;
+    position: fixed;
+    left: 94%;
+    top: 20px;
+    color: white;
+    border: none;
+    padding: 14px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#signup_btn:hover{
+    transition: ease-in 100ms;
+    box-shadow: 8px 8px 2px black;
+    font-size: 16px;
 }
 
 #login_btn:hover{
@@ -52,6 +75,29 @@ header{
     box-shadow: 0 10px 40px rgba(0,0,0,0.5);
 }
 
+.signup-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+
+    background: #0d1b35;
+    padding: 30px;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.signup-box input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
 
 .login-box input {
     display: block;
